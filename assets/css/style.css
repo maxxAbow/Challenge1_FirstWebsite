@@ -1,34 +1,33 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 5;
+    margin: 5;
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #ffc8a3;
 }
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #7c582a;
     color: #ffffff;
 }
 
 .header h1 {
-    display: inline-block;
+    text-align: center;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+.header h1 .Night {
+    color: #001627;
 }
 
-.header div {
+.links {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Lucida Console", Monaco, monospace;
     font-size: 20px;
 }
 
